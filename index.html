@@ -22,7 +22,8 @@
         .banner {
             display: grid;
             background-color:  #F3DFC1; 
-            
+            width: 300px;
+            height: 250px;
            
            
             
@@ -33,7 +34,7 @@
          h1{
             font-family: 'Shrikhand', cursive;
            color: #AA4586;
-           font-size:70px; 
+           font-size:30px; 
            text-align: center;
            padding: none;
            margin-top: 0.1rem;
@@ -44,22 +45,27 @@
        .boton{
             text-decoration: none;
            color: #F3DFC1;
-            font-size:50px; 
+            font-size:15px; 
            text-align: center;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-style: italic;
             margin-top: 0.1rem;
             
         }
+        .div-img{
+            display: flex;
+           
+            justify-content: center;
+        }
 
         img{
             display: flex;
             align-items: center;
-            height: 40vh;
+            height: 15vh;
             justify-content: center;
             margin-top: 0.1rem;
             margin-bottom: 0.1rem;
-            margin-left: 8rem;
+           text-align: center;
             object-fit: cover;            
         } 
         button{
@@ -112,7 +118,10 @@
        
             
            <h1> Be & Brew</h1>
-           <img src="fotos/Benny the Bean-min.jpg" alt="foto logo">
+           <div class="div-img">
+            <img src="fotos/Benny the Bean-min.jpg" alt="foto logo">
+           </div>
+          
            <button class="button"> 
             <a href="https://emmasanclemente.github.io/produccion-digital-1/index.html" target="_blank" class="boton">Conocenos!</a>
         </button>
